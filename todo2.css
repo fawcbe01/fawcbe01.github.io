@@ -1,19 +1,19 @@
-class=high {
+.high {
   color: white;
   background-color: red;
 }
 
-class=medium {
+.medium {
   color: brown;
   background-color: orange;
 }
 
-class=low {
+.low {
   color: black;
   background-color: gray;
 }
 
-class=done {
+.done {
   color: cyan;
   background-color: black;
 }
