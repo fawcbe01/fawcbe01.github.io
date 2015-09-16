@@ -1,1 +1,20 @@
+class=high {
+  color: white;
+  background-color: red;
+}
+
+class=medium {
+  color: brown;
+  background-color: orange;
+}
+
+class=low {
+  color: black;
+  background-color: gray;
+}
+
+class=done {
+  color: cyan;
+  background-color: black;
+}
 
