@@ -24,6 +24,14 @@
   background-color: black;
 }
 
+section {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 h2 {
   color: white;
   text-align: center;
