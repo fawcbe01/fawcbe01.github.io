@@ -20,8 +20,8 @@
 }
 
 #done {
-  color: cyan;
   background-color: black;
+  text-decoration: underline;
 }
 
 section {
@@ -37,5 +37,6 @@ section {
 h2 {
   color: white;
   text-align: center;
+  text-decoration: underline;
   
 }
