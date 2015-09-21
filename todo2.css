@@ -22,6 +22,7 @@
 #done {
   background-color: black;
   text-decoration: underline;
+  clear: text-decoration:line-through;
 }
 
 section {
