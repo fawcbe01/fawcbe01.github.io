@@ -12,6 +12,7 @@ nav li {
 header {
   position: fixed;
   background-color: purple;
+  
 }
 
 section {
@@ -28,6 +29,7 @@ footer {
 
 body {
   background-color: gray;
+  width: 100%;
 }
 
 </style>
