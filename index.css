@@ -2,6 +2,28 @@
 
 nav {
   position: fixed;
+  background-color: lightblue;
   }
+  
+header {
+  position: fixed;
+  background-color: lavender;
+}
+
+section {
+  background-color: lightgreen;
+}
+
+aside {
+  background-color: lightpink;
+}
+
+footer {
+  background-color: yellow;
+}
+
+body {
+  background-color: darkgreen;
+}
 
 </style>
