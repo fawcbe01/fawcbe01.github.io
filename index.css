@@ -2,7 +2,7 @@
 
 nav {
   position: fixed;
-  background-color: lightblue;
+  background-color: blue;
   }
   
 nav li {
@@ -11,15 +11,15 @@ nav li {
   
 header {
   position: fixed;
-  background-color: lavender;
+  background-color: purple;
 }
 
 section {
-  background-color: lightgreen;
+  background-color: green;
 }
 
 aside {
-  background-color: lightpink;
+  background-color: red;
 }
 
 footer {
@@ -27,7 +27,7 @@ footer {
 }
 
 body {
-  background-color: darkgreen;
+  background-color: gray;
 }
 
 </style>
