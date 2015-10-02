@@ -5,6 +5,10 @@ nav {
   background-color: lightblue;
   }
   
+nav li {
+  position: inline;
+}
+  
 header {
   position: fixed;
   background-color: lavender;
