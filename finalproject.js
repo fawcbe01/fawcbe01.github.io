@@ -1,6 +1,6 @@
-newtask = function() {
+newTask = function() {
   document.createElement("li");
   document.createElement("checkbox");
-  newtask = document.querySelector('#entertext').value;
-  document.createTextNode("newtask");
+  taskenter = document.querySelector('#entertext').value;
+  document.createTextNode("taskenter");
 }
