@@ -4,8 +4,13 @@ ul {
   align: center;
 }
 
-section {
+#list {
   background-color: purple;
   align: center;
   text: White;
+}
+
+#enter {
+  background-color: purple;
+  text: white;
 }
