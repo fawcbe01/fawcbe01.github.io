@@ -1,5 +1,5 @@
 newTask = function() {
-  myUl = document.querySelector('#tasklist')
+  myUl = document.querySelector('#tasklist');
   newli = document.createElement('li');
   newInput = document.createElement('input');
   newInput.type = "checkbox";
@@ -8,6 +8,6 @@ newTask = function() {
   task = document.createTextNode('taskenter');
   taskenter.appendChild('task');
   newli.appendChild('taskenter');
-  myUl.appendChild('newli')
+  myUl.appendChild('newli');
 }
 
