@@ -3,11 +3,11 @@ newTask = function() {
   newli = document.createElement('li');
   newInput = document.createElement('input');
   newInput.type = "checkbox";
-  newli.appendChild('newInput');
+  newli.appendChild(newInput);
   taskenter = document.querySelector('#entertext').value;
-  task = document.createTextNode('taskenter');
-  taskenter.appendChild('task');
-  newli.appendChild('taskenter');
-  myUl.appendChild('newli');
+  task = document.createTextNode(taskenter);
+  taskenter.appendChild(task);
+  newli.appendChild(taskenter);
+  myUl.appendChild(newli);
 }
 
