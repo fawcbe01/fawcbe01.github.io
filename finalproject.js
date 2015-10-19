@@ -1,9 +1,8 @@
 newTask = function() {
-  document.createElement('li');
+  li = document.createElement('li');
   document.createElement('checkbox');
   taskenter = document.querySelector('#entertext').value;
   task = document.createTextNode('taskenter');
-  ul.appendChild('li');
-  li.appendChild('task');
+  tasklist.appendChild('li');
 }
 
