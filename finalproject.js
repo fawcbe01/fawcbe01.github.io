@@ -3,6 +3,6 @@ newTask = function() {
   document.createElement('checkbox');
   taskenter = document.querySelector('#entertext').value;
   task = document.createTextNode('taskenter');
-  ul("tasklist").appendChild('li');
+  ul("#tasklist").appendChild('li');
 }
 
