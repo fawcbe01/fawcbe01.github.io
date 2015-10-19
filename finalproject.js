@@ -6,7 +6,6 @@ newTask = function() {
   newli.appendChild(newInput);
   taskenter = document.querySelector('#entertext').value;
   task = document.createTextNode(taskenter);
-  taskenter.appendChild(task);
   newli.appendChild(taskenter);
   myUl.appendChild(newli);
 }
