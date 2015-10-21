@@ -12,12 +12,10 @@ header {
  background-color: #000078;
  color: #AA0078 ;
  text-align: center;
- margin-left: auto;
- margin-right: auto;
+ margin: auto;
  border-top: 1px solid #282828;
  border-bottom: 4px solid #FF3300;
  font-size: 15pt;
- clear: both;
 }
 nav>ul>li {
  display: inline;
