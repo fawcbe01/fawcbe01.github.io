@@ -5,7 +5,7 @@ newTask = function() {
   myInput = document.createElement("Input");
   myInput.type="checkbox";
   myLi.appendChild(myInput);
-  myText = document.createTextNod(myBox.value);
+  myText = document.createTextNode(myBox.value);
   myLi.appendChild(myText);
   
   myPriority= document.querySelector("#priority");
