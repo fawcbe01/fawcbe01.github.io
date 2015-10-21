@@ -2,6 +2,7 @@
 nav {
   position: fixed;
   background-color: blue;
+  width: 100%;
   }
   
 nav li {
