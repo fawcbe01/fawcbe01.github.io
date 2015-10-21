@@ -5,6 +5,8 @@
   color: white;
   height: 500px;
   width: 80%;
+  margin: auto;
+  overflow: auto;
 }
 
 #enter {
@@ -13,7 +15,7 @@
 }
 
 header {
-  text-align: center;
+  margin: auto;
 }
 
 .high {
