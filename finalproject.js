@@ -10,6 +10,8 @@ newTask = function() {
   
   myPriority= document.querySelector("#priority").value;
   myLi.classList.add(myPriority);
+  
+  myUl.appendChild(myLi);
 
 
 
