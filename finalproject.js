@@ -4,6 +4,7 @@ newTask = function() {
   myLi = document.createElement("li");
   myInput = document.createElement("input");
   myInput.type="checkbox";
+  myInput.onclick = boxchecked;
   myText = document.createTextNode(myBox.value);
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
@@ -13,8 +14,11 @@ newTask = function() {
   
   myUl.appendChild(myLi);
 
+}
 
-
+boxchecked = function() {
+  
+  this.parentNode.classList.add("done")
 }
 
 
