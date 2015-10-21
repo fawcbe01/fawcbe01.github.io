@@ -23,7 +23,7 @@ boxchecked = function() {
 else{
   this.parentNode.classList.remove("done")
 }
-  localSave(taskList)
+  localSave(tasklist)
 }
 
 
