@@ -6,6 +6,7 @@ newTask = function() {
   myInput.type="checkbox";
   myText = document.createTextNode(myBox).value;
   myLi.appendChild(myInput);
+  myLi.appendChild(myText);
   
   myPriority= document.querySelector("#priority");
   myLi.classList.add(myPriority).value;
