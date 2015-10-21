@@ -1,18 +1,18 @@
 
 #list {
   background-color: purple;
-  align: center;
-  text: White;
+  text-align: center;
+  color: white;
   height: 100px;
 }
 
 #enter {
   background-color: purple;
-  text: white;
+  color: white;
 }
 
 header {
-  align: center;
+  text-align: center;
 }
 .high {
   color: red;
