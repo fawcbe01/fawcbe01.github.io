@@ -4,7 +4,7 @@ newTask = function() {
   myLi = document.createElement("li");
   myInput = document.createElement("INPUT");
   myInput.type="checkbox";
-  myText = document.createTextNode(myBox);
+  myText = document.createTextNode(myBox.value);
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
   
