@@ -1,12 +1,15 @@
 newTask = function() {
-  myUl = document.querySelector('#tasklist');
-  newli = document.createElement('li');
-  newInput = document.createElement('input');
-  newInput.type = "checkbox";
-  newli.appendChild(newInput);
-  taskenter = document.querySelector('#entertext').value;
-  task = document.createTextNode(taskenter);
-  newli.appendChild(taskenter);
-  myUl.appendChild(newli);
+  myBox= document.querySelector("#textbox");
+  myUl = document.querySelector("#tasklist");
+  myLi = document.createElement("li");
+  myInput = document.createElement("Input");
+  myInput.type="checkbox";
+  myLi.appendChild(myInput);
+  myText = document.createTextNod(myBox.value);
+  myLi.appendChild(myText);
+  
+  myPriority= document.querySelector("#priority");
+  myLi.classList.add(myPriority.value);
+
 }
 
