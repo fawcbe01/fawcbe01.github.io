@@ -13,7 +13,7 @@ newTask = function() {
   myLi.classList.add(myPriority);
   
   myUl.appendChild(myLi);
-  localSave(tasklist)
+  localSave("tasklist")
 }
 
 boxchecked = function() {
@@ -23,7 +23,7 @@ boxchecked = function() {
 else{
   this.parentNode.classList.remove("done")
 }
-  localSave(tasklist)
+  localSave("tasklist")
 }
 
 
