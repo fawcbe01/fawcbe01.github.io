@@ -9,7 +9,7 @@ newTask = function() {
   myLi.appendChild(myText);
   
   myPriority= document.querySelector("#priority");
-  myLi.classList.add(myPriority.value);
+  myLi.classList.add(myPriority).value;
 
 }
 
