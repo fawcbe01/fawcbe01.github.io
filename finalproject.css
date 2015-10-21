@@ -3,7 +3,8 @@
   background-color: purple;
   text-align: center;
   color: white;
-  height: 100px;
+  height: 500px;
+  width: 300px;
 }
 
 #enter {
@@ -14,6 +15,7 @@
 header {
   text-align: center;
 }
+
 .high {
   color: red;
 }
