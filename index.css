@@ -25,13 +25,6 @@ body {
  background-color: #D1CAB0;
 }
 
-section {
- margin-top: 10px;
- width: 85%;
- margin-left: auto;
- margin-right: auto;
-}
-
 article {
  float: right; 
  width: 75%;
