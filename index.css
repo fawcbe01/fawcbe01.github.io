@@ -47,5 +47,6 @@ aside {
 }
 
 footer {
-  float: bottom;
+  position: fixed;
+  bottom: 0;
 }
