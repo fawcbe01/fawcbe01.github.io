@@ -33,7 +33,7 @@ section {
 }
 
 article {
- float: left; 
+ float: right; 
  width: 75%;
  border: 1px solid black;
  padding: 3px;
