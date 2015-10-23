@@ -25,18 +25,14 @@ body {
  background-color: #D1CAB0;
 }
 
-article {
- float: right; 
- width: 75%;
+section {
+  height: 100%;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  float: left;
 }
-
-aside {
- float: left;
- margin-left: 10px;
- width: 20%;
- padding: 3px;
-}
-
 footer {
   position: fixed;
   bottom: 0;
